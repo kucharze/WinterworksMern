@@ -5,11 +5,11 @@ import styles from './Navbar.module.css'
 function Navbar() {
   return (
     <div className={styles.Navbar}>
-        <Link>Home</Link>
+        <Link to={'/'}>Home</Link>
         <Link>About us</Link>
         <Link>Designs</Link>
-        <Link>Products</Link>
-        <Link>Contact Info</Link>
+        <Link to={'/products'}>Products</Link>
+        <Link to={'/contactinfo'}>Contact Info</Link>
     </div>
   )
 }
