@@ -7,7 +7,6 @@ function Navbar() {
     <div className={styles.Navbar}>
       <Link>Designs</Link>
       <Link>Products</Link>
-      <h2>page3</h2>
     </div>
   )
 }
