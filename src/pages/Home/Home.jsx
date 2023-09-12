@@ -4,8 +4,8 @@ function Home() {
   return (
     <div>
         <h1>The home page</h1>
-        <h4>Welcome to Winterworks</h4>
-        <h4>IDK what to put here: Maybe a picture</h4>
+        <h2>Welcome to Winterworks</h2>
+        <h3>IDK what to put here: Maybe a picture</h3>
     </div>
   )
 } 
