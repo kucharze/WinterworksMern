@@ -7,7 +7,7 @@ function Navbar() {
     <div className={styles.Navbar}>
         <Link to={'/'}>Home</Link>
         <Link to={'/about'}>About us</Link>
-        <Link>Designs</Link>
+        <Link to={'/designs'}>Designs</Link>
         <Link to={'/products'}>Products</Link>
         <Link to={'/contactinfo'}>Contact Info</Link>
     </div>
