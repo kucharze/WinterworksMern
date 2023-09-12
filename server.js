@@ -25,6 +25,10 @@ db.on("connected", function () {
   console.log(`Connected to ${db.name} at ${db.host}`);
 });
 
-app.listen("3001", () => {
-  console.log("Listening on port 3001");
+// Configure to use port 3001 instead of 3000 during
+// development to avoid collision with React's dev server
+const port = process.env.PORT || 3001;
+
+app.listen(port, () => {
+  console.log(`Listening on port ${port}`);
 });
