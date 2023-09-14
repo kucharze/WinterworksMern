@@ -9,6 +9,7 @@ function Navbar() {
         <Link to={'/about'}>About us</Link>
         <Link to={'/designs'}>Designs</Link>
         <Link to={'/products'}>Products</Link>
+         <Link to={'/placeOrder'}>Place an Order</Link>
         <Link to={'/contactinfo'}>Contact Info</Link>
     </div>
   )
