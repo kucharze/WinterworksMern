@@ -1,7 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
 import axios from 'axios'
 
 function Orders() {
+
+    const handelSubmit = (e) =>{
+        e.preventDefault();
+    }
   return (
     <div>
       <h1>Page for placing orders</h1>
