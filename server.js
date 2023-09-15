@@ -1,5 +1,6 @@
 const express = require("express");
 require("dotenv").config();
+const cors = require("cors");
 
 const app = express();
 
@@ -16,6 +17,7 @@ const db = mongoose.connection;
 
 app.use(favicon(path.join(__dirname, "build", "favicon.ico")));
 app.use(express.static(path.join(__dirname, "build")));
+app.use(cors());
 
 //Additional routes
 app.use("/orders", require("./routes/orders"));
