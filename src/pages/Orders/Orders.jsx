@@ -8,9 +8,18 @@ function Orders() {
   const [item,setItem] = useState('')
   const [design,setDesign] = useState('')
 
-    const handleSubmit = (e) =>{
+    const handleSubmit = async (e) =>{
         e.preventDefault();
-        console.log(name)
+        let order = {name,phoneNumber,email,item,design}
+        console.log(order)
+
+        let res = await axios.post('http://localhost:3001/orders',order,{
+          headers:{
+            "Content-Type": "application/json"
+          }
+        })
+
+        console.log(res)
     }
   return (
     <div>
