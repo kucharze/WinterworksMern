@@ -13,7 +13,8 @@ function Orders() {
         let order = {name,phoneNumber,email,item,design}
         console.log(order)
 
-        let res = await axios.post('http://localhost:3001/orders',order,{
+        let res = await axios.post('http://localhost:3001/orders',
+        {name: name,number: phoneNumber,email: email,item: item, design: design},{
           headers:{
             "Content-Type": "application/json"
           }
