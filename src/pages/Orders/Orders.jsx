@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import axios from 'axios'
 
+// const BASE_URL = 
 function Orders() {
   const [name,setName] = useState('')
   const [phoneNumber,setPhoneNumber] = useState('')
@@ -14,7 +15,7 @@ function Orders() {
         console.log(order)
 
         let res = await axios.post('http://localhost:3001/orders',
-        {name: name,number: phoneNumber,email: email,item: item, design: design},{
+        order,{
           headers:{
             "Content-Type": "application/json"
           }
