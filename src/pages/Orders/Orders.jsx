@@ -2,6 +2,11 @@ import React,{useState} from 'react'
 import axios from 'axios'
 
 function Orders() {
+  const [name,setName] = useState('')
+  const [phoneNumber,setPhoneNumber] = useState('')
+  const [email,setEmail] = useState('')
+  const [item,setItem] = useState('')
+  const [design,setDesign] = useState('')
 
     const handelSubmit = (e) =>{
         e.preventDefault();
