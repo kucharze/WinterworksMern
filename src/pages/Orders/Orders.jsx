@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import axios from 'axios'
+import styles from './Orders.module.css'
 
 // const BASE_URL = 
 function Orders() {
@@ -30,7 +31,7 @@ function Orders() {
         
     }
   return (
-    <div>
+    <div className={styles.Orders}>
       <h1>Page for placing orders</h1>
       <h2>{annoucnement}</h2>
       <form onSubmit={handleSubmit}>
