@@ -8,24 +8,31 @@ function Orders() {
   const [email,setEmail] = useState('')
   const [item,setItem] = useState('')
   const [design,setDesign] = useState('')
+  const [annoucnement,setAnnouncement] = useState('')
 
     const handleSubmit = async (e) =>{
         e.preventDefault();
         let order = {name,phoneNumber,email,item,design}
         console.log(order)
 
-        let res = await axios.post('http://localhost:3001/orders',
-        order,{
-          headers:{
-            "Content-Type": "application/json"
-          }
-        })
+        try {
+          let res = await axios.post('http://localhost:3001/orders',
+          order,{
+            headers:{
+              "Content-Type": "application/json"
+            }
+          })
 
-        console.log(res)
+          console.log(res)
+        } catch (error) {
+          setAnnouncement('Error')
+        }
+        
     }
   return (
     <div>
       <h1>Page for placing orders</h1>
+      <h2>{annoucnement}</h2>
       <form onSubmit={handleSubmit}>
         <input onChange={(e)=>{setName(e.target.value)}} placeholder='Name'/> <br/>
         <input onChange={(e)=>{setPhoneNumber(e.target.value)}} placeholder='Phone Number'/><br/>
