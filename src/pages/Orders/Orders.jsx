@@ -35,11 +35,11 @@ function Orders() {
       <h1>Page for placing orders</h1>
       <h2>{annoucnement}</h2>
       <form onSubmit={handleSubmit}>
-        <input onChange={(e)=>{setName(e.target.value)}} placeholder='Name'/> <br/>
-        <input onChange={(e)=>{setPhoneNumber(e.target.value)}} placeholder='Phone Number'/><br/>
-        <input onChange={(e)=>{setEmail(e.target.value)}} placeholder='Email'/><br/>
-        <input onChange={(e)=>{setItem(e.target.value)}} placeholder='Item'/><br/>
-        <input onChange={(e)=>{setDesign(e.target.value)}} placeholder='Design'/><br/>
+        <input name='name' onChange={(e)=>{setName(e.target.value)}} placeholder='Name'/> <br/>
+        <input name='phonenumber' onChange={(e)=>{setPhoneNumber(e.target.value)}} placeholder='Phone Number'/><br/>
+        <input name='email' onChange={(e)=>{setEmail(e.target.value)}} placeholder='Email'/><br/>
+        <input name='item' onChange={(e)=>{setItem(e.target.value)}} placeholder='Item'/><br/>
+        <input name='design' onChange={(e)=>{setDesign(e.target.value)}} placeholder='Design'/><br/>
         <input type='submit'/>
       </form>
     </div>
