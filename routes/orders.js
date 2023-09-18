@@ -9,6 +9,7 @@ router.post("/", (req, res) => {
   res.json(req.body);
 
   try {
+    Orders.create(req.body);
   } catch (error) {
     console.log(error);
     res.status(400).json("An error occured while trying to submit an order");
