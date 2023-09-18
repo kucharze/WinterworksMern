@@ -3,3 +3,11 @@ input {
   height: 50px;
   font-size: 25px;
 }
+
+.submit {
+  width: 150px;
+}
+
+.Orders {
+  padding: 20px;
+}
