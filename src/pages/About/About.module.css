@@ -1,6 +1,6 @@
 .About {
   background-color: green;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .list {
@@ -8,6 +8,10 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* justify-content: center; */
-  /* width: 200px; */
+  justify-content: center;
+  /* width: 800px; */
+}
+li {
+  width: 500px;
+  margin: 10px;
 }
