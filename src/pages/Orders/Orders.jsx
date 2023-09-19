@@ -25,11 +25,16 @@ function Orders() {
           })
 
           console.log(res)
+          setAnnouncement("Successful Order Submision")
+          
         } catch (error) {
+          console.log("There was an error")
+          console.log(error)
           setAnnouncement('Error')
         }
-        
+
     }
+
   return (
     <div className={styles.Orders}>
       <h1>Page for placing orders</h1>
@@ -40,7 +45,7 @@ function Orders() {
         <input name='email' onChange={(e)=>{setEmail(e.target.value)}} placeholder='Email'/><br/>
         <input name='item' onChange={(e)=>{setItem(e.target.value)}} placeholder='Item'/><br/>
         <input name='design' onChange={(e)=>{setDesign(e.target.value)}} placeholder='Design'/><br/>
-        <input type='submit'/>
+        <input className={styles.submit} type='submit'/>
       </form>
     </div>
   )
