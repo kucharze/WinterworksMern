@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Home.module.css'
 import baby from '../../images/03 19 12_Baby Bib Quotes/03 19 12 001.jpg'
+import baby2 from '../../images/03 19 12_Baby Bib Quotes/03 19 12 002.jpg'
 import car from '../../images/10 12 12_Carhops/10 12 12 001.jpg'
 import car2 from '../../images/10 12 12_Carhops/10 12 12 004.jpg'
 import car3 from '../../images/10 12 12_Carhops/10 12 12 005.jpg'
@@ -16,6 +17,7 @@ function Home() {
         <h3>Check out our designs</h3>
         <h1>Baby</h1>
         <img src={baby} alt="" />
+        <img src={baby2} alt="" />
         <br/>
         <h1>Carhops</h1>
         <img src={car} alt="" />
