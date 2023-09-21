@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './Home.module.css'
 import baby from '../../images/03 19 12_Baby Bib Quotes/03 19 12 001.jpg'
 import car from '../../images/10 12 12_Carhops/10 12 12 001.jpg'
+import car2 from '../../images/10 12 12_Carhops/10 12 12 004.jpg'
+import cash from '../../images/04 26 12_ATM Cash World/04 16 12 001.jpg'
 
 function Home() {
   return (
@@ -9,8 +11,14 @@ function Home() {
         <h1>The home page</h1>
         <h2>Welcome to Winterworks</h2>
         <h3>Check out our designs</h3>
+        <h1>Baby</h1>
         <img src={baby} alt="" />
+        <br/>
+        <h1>Carhops</h1>
         <img src={car} alt="" />
+        <img src={car2} alt="" />
+        <h1>ATM Cash World</h1>
+        <img src={cash} alt="" />
     </div>
   )
 } 
