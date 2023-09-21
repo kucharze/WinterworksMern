@@ -11,6 +11,8 @@ import car3 from '../../images/10 12 12_Carhops/10 12 12 003.jpg'
 import cash from '../../images/04 26 12_ATM Cash World/04 16 12 001.jpg'
 import cash2 from '../../images/04 26 12_ATM Cash World/04 16 12 003.jpg'
 import cash3 from '../../images/04 26 12_ATM Cash World/04 16 12 002.jpg'
+import bags from '../../images/08_20_14_Coach Bag_Kelly Kennedy/08_20_14_002.jpg'
+import bags2 from '../../images/08_20_14_Coach Bag_Kelly Kennedy/08_20_14_001.jpg'
 
 function Home() {
   return (
@@ -33,6 +35,9 @@ function Home() {
         <img src={cash} alt="" />
         <img src={cash2} alt="" />
         <img src={cash3} alt="" />
+        <h1>Handhelds</h1>
+        <img src={bags} alt="" />
+        <img src={bags2} alt="" />
     </div>
   )
 } 
