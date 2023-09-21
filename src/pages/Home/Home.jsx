@@ -4,6 +4,7 @@ import brentwood from '../../images/01 10 12_Brentwood Symbols/01 10 12 016.jpg'
 import brentwood2 from '../../images/01 10 12_Brentwood Symbols/01 10 12 051.jpg'
 import baby from '../../images/03 19 12_Baby Bib Quotes/03 19 12 001.jpg'
 import baby2 from '../../images/03 19 12_Baby Bib Quotes/03 19 12 002.jpg'
+import child from '../../images/02 13 14_Quinnie Blanket/02 13 14 002.jpg'
 import car from '../../images/10 12 12_Carhops/10 12 12 001.jpg'
 import car2 from '../../images/10 12 12_Carhops/10 12 12 004.jpg'
 import car3 from '../../images/10 12 12_Carhops/10 12 12 005.jpg'
@@ -19,15 +20,16 @@ function Home() {
         <h1>Brentwood</h1>
         <img src={brentwood} alt="" />
         <img src={brentwood2} alt="" />
-        <h1>Baby</h1>
+        <h1>Children's items</h1>
         <img src={baby} alt="" />
         <img src={baby2} alt="" />
+        <img src={child} alt="" />
         <br/>
-        <h1>Carhops</h1>
+        <h1>Wearables</h1>
         <img src={car} alt="" />
         <img src={car2} alt="" />
         <img src={car3} alt="" />
-        <h1>ATM Cash World</h1>
+        <h1>Logos</h1>
         <img src={cash} alt="" />
         <img src={cash2} alt="" />
         <img src={cash3} alt="" />
