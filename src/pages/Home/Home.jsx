@@ -13,8 +13,7 @@ import cash3 from '../../images/04 26 12_ATM Cash World/04 16 12 002.jpg'
 
 function Home() {
   return (
-    <div>
-        <h1>The home page</h1>
+    <div className={styles.Home}>
         <h2>Welcome to Winterworks</h2>
         <h3>Check out our designs</h3>
         <h1>Brentwood</h1>
