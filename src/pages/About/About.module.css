@@ -1,5 +1,4 @@
 .About {
-  background-color: green;
   font-size: 25px;
 }
 
@@ -12,6 +11,6 @@
   /* width: 800px; */
 }
 li {
-  width: 1200px;
+  width: 1000px;
   margin: 10px;
 }
