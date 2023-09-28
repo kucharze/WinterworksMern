@@ -53,7 +53,13 @@ function Orders() {
         <input name='name' onChange={(e)=>{setName(e.target.value)}} placeholder='Name'/> 
         <input name='phonenumber' onChange={(e)=>{setPhoneNumber(e.target.value)}} placeholder='Phone Number'/>
         <input name='email' onChange={(e)=>{setEmail(e.target.value)}} placeholder='Email'/>
-        <input name='item' onChange={(e)=>{setItem(e.target.value)}} placeholder='Item'/>
+        <select name='item'>
+          <option value="Shirts">Shirts</option>
+          <option value="Blankets">Blankets</option>
+          <option value="Hats">Hats</option>
+          <option value="Handhelds">Handhelds</option>
+        </select>
+        <input name='item' onChange={(e)=>{setItem(e.target.value)}} placeholder='Item(Will be changed to dropdown)'/>
         <input name='design' onChange={(e)=>{setDesign(e.target.value)}} placeholder='Design'/><br/>
         <input className={styles.submit} type='submit'/>
       </form>
