@@ -10,6 +10,9 @@
   justify-content: center;
   /* width: 800px; */
 }
+ol {
+  list-style: none;
+}
 li {
   width: 1000px;
   margin: 10px;
