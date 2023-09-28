@@ -6,10 +6,12 @@ function Products() {
     <div className={styles.list}>
       <h1>See our Products</h1>
       <div >
-        <h3>We sell a number of different products including:</h3>
+        <h3>We embroidered a number of different products including:</h3>
         <ul>
-          <li>Blankets</li>
-          <li>Clothing</li>
+          <li>Blankets Stock: 1</li>
+          <li>Clothing Stock: 1</li>
+          <li>Hats Stock: 1</li>
+          <li>Handhelds Stock: 1</li>
         </ul>
       </div>
       
