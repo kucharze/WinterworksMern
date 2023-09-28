@@ -38,12 +38,22 @@ function Orders() {
   return (
     <div className={styles.Orders}>
       <h1>Page for placing orders</h1>
+      <div className={styles.list}>
+        <h1>Order rules</h1>
+        <ul>
+          <li>Please allow at least one week for order completion. These orders take time to complete</li>
+          <li>Please use a valid email or phone number when submitting an order.  
+            If we cannot contact you, we will not put your name in the order queue.
+          </li>
+
+        </ul>
+      </div>
       <h2>{annoucnement}</h2>
       <form onSubmit={handleSubmit}>
-        <input name='name' onChange={(e)=>{setName(e.target.value)}} placeholder='Name'/> <br/>
-        <input name='phonenumber' onChange={(e)=>{setPhoneNumber(e.target.value)}} placeholder='Phone Number'/><br/>
-        <input name='email' onChange={(e)=>{setEmail(e.target.value)}} placeholder='Email'/><br/>
-        <input name='item' onChange={(e)=>{setItem(e.target.value)}} placeholder='Item'/><br/>
+        <input name='name' onChange={(e)=>{setName(e.target.value)}} placeholder='Name'/> 
+        <input name='phonenumber' onChange={(e)=>{setPhoneNumber(e.target.value)}} placeholder='Phone Number'/>
+        <input name='email' onChange={(e)=>{setEmail(e.target.value)}} placeholder='Email'/>
+        <input name='item' onChange={(e)=>{setItem(e.target.value)}} placeholder='Item'/>
         <input name='design' onChange={(e)=>{setDesign(e.target.value)}} placeholder='Design'/><br/>
         <input className={styles.submit} type='submit'/>
       </form>
