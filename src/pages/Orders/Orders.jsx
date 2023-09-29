@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import axios from 'axios'
 import styles from './Orders.module.css'
+import text from '../../images/YourText.JPG'
 
 // const BASE_URL = 
 function Orders() {
@@ -69,6 +70,7 @@ function Orders() {
         <input name='design' onChange={(e)=>{setDesign(e.target.value)}} placeholder='Design'/><br/>
         <input className={styles.submit} type='submit'/>
       </form>
+      <img src={text} alt="" className={styles.text} />
     </div>
   )
 }
