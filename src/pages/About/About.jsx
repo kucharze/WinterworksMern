@@ -4,14 +4,14 @@ import styles from './About.module.css'
 function About() {
   return (
     <div className={styles.About}>
-      <h1>About page</h1>
+      <h1>All created from a mom who likes to sow.</h1>
       <p>Have any questions, check out out Contact info and shoot us a call or email.</p>
 
+      
       <div className={styles.list}>
-        <h2>How does ordering work?</h2>
         <ol>
-          <li>Browse our products to see what is in stock</li>
-          <li>Go to our Orders page</li>
+          <li>Our products are purchased from various venders.  Availability of specific items can depend on what they have in stock.</li>
+          <li>Go to our Orders page for questions.</li>
           <li>Submit your order.  Including a description of the design you want, 
             as well as a valid email and phone number.
           </li>
