@@ -9,4 +9,7 @@
 a {
   font-size: 30px;
   margin: 15px;
+  background-image: url("../../images/Patches/Black-white-design.jpg");
+  color: red;
+  background-size: cover;
 }
