@@ -1,9 +1,8 @@
 .App {
   text-align: center;
-  background-color: black;
   color: red;
   padding: 10px;
-  background-image: url("./images/Patches/black-white-Diamon.jpg");
+  background-image: url("./images/Patches/Black-white-design.jpg");
   background-size: cover;
   /* height: 100vh; */
 }

@@ -8,12 +8,13 @@
 }
 
 a {
-  font-size: 30px;
+  font-size: 35px;
   margin: 15px;
   background-image: url("../../images/Patches/PatchRed.jpg");
   color: red;
   background-size: cover;
-  width: 250px;
-  height: 100px;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 60px;
   align-items: center;
 }
