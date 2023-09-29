@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: space-evenly;
   border: solid black;
-  background-color: aqua;
+  background-image: url("../../images/Patches/blackdiamon.jpg");
+  background-size: contain;
 }
 
 a {

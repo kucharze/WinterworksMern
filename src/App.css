@@ -4,8 +4,8 @@
   color: red;
   padding: 10px;
   background-image: url("./images/Patches/black-white-Diamon.jpg");
-  background-size: contain;
-  height: 100vh;
+  background-size: cover;
+  /* height: 100vh; */
 }
 
 img {
