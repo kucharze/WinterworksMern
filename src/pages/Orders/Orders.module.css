@@ -18,7 +18,7 @@ input {
   align-items: center;
   text-align: center;
   justify-content: center;
-  font-size: 25px;
+  font-size: 30px;
   /* width: 800px; */
 }
 
@@ -33,7 +33,7 @@ input {
 li {
   width: 1000px;
   margin: 10px;
-  color: black;
+  /* color: black; */
 }
 
 select {
