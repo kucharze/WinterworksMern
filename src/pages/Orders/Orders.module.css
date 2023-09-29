@@ -22,6 +22,20 @@ input {
   /* width: 800px; */
 }
 
+.title {
+  background-image: url("../../images/Patches/PatchBlack.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  /* height: 0px; */
+}
+
+li {
+  width: 1000px;
+  margin: 10px;
+  color: black;
+}
+
 select {
   height: 60px;
   width: 150px;
@@ -29,7 +43,7 @@ select {
 }
 
 ul {
-  list-style: none;
+  /* list-style: none; */
 }
 
 .text {

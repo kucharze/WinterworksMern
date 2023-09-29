@@ -10,7 +10,10 @@
 a {
   font-size: 30px;
   margin: 15px;
-  background-image: url("../../images/Patches/Black-white-design.jpg");
+  background-image: url("../../images/Patches/PatchRed.jpg");
   color: red;
   background-size: cover;
+  width: 250px;
+  height: 100px;
+  align-items: center;
 }

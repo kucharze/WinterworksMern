@@ -38,9 +38,8 @@ function Orders() {
 
   return (
     <div className={styles.Orders}>
-      <h1>Page for placing orders</h1>
       <div className={styles.list}>
-        <h1>Order rules</h1>
+        <h1 className={styles.title}>Order rules</h1>
         <ul>
           <li>Please allow at least one week for order completion. These orders take time to complete</li>
           <li>Please use a valid email or phone number when submitting an order.  
