@@ -14,6 +14,7 @@ function Products() {
           <li>Handhelds Stock: 1</li>
         </ul>
       </div>
+      <h3>Don't see an item here that you want?  Contact us to inquire about a special order.</h3>
       
     </div>
   )
