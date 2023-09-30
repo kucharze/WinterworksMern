@@ -48,6 +48,7 @@ function Orders() {
 
         </ul>
       </div>
+      <h3>Currently this many orders in the queue: Pull this number from database</h3>
       <h2>{annoucnement}</h2>
       <form onSubmit={handleSubmit}>
         <input name='name' onChange={(e)=>{setName(e.target.value)}} placeholder='Name'/> 
