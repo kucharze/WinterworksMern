@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border: solid black;
+  /* border: solid black; */
   /* background-color: black; */
   /* background-image: url("../../images/Patches/blackdiamon.jpg"); */
   background-size: contain;
@@ -12,11 +12,11 @@
 a {
   font-size: 25px;
   margin: 15px;
-  background-image: url("../../images/Patches/Tab\ 1.JPG");
+  background-image: url("../../images/Patches/PatchWhite2.jpg");
   color: blue;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 250px;
+  width: 220px;
   height: 150px;
   float: left;
   align-items: center;
