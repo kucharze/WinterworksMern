@@ -19,7 +19,7 @@ function Home() {
     <div className={styles.Home}>
         <h2>Welcome to Winterworks</h2>
         <h3>Check out our designs</h3>
-        <h1>Brentwood</h1>
+        <h1>Showing our school spirit</h1>
         <img src={brentwood} alt="" />
         <img src={brentwood2} alt="" />
         <h1>Children's items</h1>

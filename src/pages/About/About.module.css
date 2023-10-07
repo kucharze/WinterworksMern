@@ -5,9 +5,6 @@
   margin: 10px;
   padding: 10px;
 }
-h1 {
-  color: red;
-}
 
 .list {
   display: flex;

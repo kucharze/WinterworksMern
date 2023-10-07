@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  color: red;
+  color: white;
   padding: 10px;
   background-image: url("./images/Patches/Burlap\ Gray2.JPG");
   /* background-size: contain; */
@@ -9,4 +9,10 @@
 
 img {
   margin: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: darkblue;
 }
