@@ -4,7 +4,7 @@ import styles from './Products.module.css'
 function Products() {
   return (
     <div className={styles.list}>
-      <h1>See our Products</h1>
+      <h1 className={styles.header}>See our Products</h1>
       <div >
         <h3>We embroidered a number of different products including:</h3>
         <ul>
