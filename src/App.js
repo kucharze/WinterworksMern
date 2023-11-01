@@ -12,6 +12,11 @@ import title from "./images/WinterWorks.JPG";
 function App() {
   return (
     <div className="App">
+      <div className="TopContact">
+        <h1>Email: Winterworks@gmail.com</h1>
+        <h1>Phone: 412-884-5278</h1>
+      </div>
+
       <img src={title} alt="" />
       <Navbar />
 
