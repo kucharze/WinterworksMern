@@ -6,6 +6,8 @@
 }
 
 ul {
-  width: 50px;
-  font-size: 15px;
+  /* width: 500px; */
+  font-size: 25px;
+  list-style: none;
+  align-items: center;
 }
