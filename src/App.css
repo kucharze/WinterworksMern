@@ -2,8 +2,9 @@
   text-align: center;
   color: white;
   padding: 10px;
-  background-image: url("./images/Patches/Burlap\ Gray2.JPG");
-  /* background-size: contain; */
+  background-image: url("./images/Blue2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
   /* height: 100vh; */
 }
 
@@ -14,7 +15,7 @@ img {
 h1,
 h2,
 h3 {
-  color: darkblue;
+  color: blue;
   width: 100%;
 }
 
