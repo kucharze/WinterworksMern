@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  color: white;
+  color: gray;
   padding: 10px;
   background-image: url("./images/Blue2.jpg");
   background-size: contain;
@@ -15,7 +15,7 @@ img {
 h1,
 h2,
 h3 {
-  color: blue;
+  color: darkgray;
   width: 100%;
 }
 
