@@ -15,8 +15,11 @@ h1,
 h2,
 h3 {
   color: darkblue;
+  background-color: lightblue;
+  width: 100%;
 }
 
 .TopContact {
   display: flex;
+  background-image: url("./images/Patches/PatchWhite2.jpg");
 }
