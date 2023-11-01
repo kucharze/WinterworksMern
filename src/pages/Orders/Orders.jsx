@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import axios from 'axios'
 import styles from './Orders.module.css'
 import text from '../../images/YourText.JPG'
@@ -11,6 +11,7 @@ function Orders() {
   const [item,setItem] = useState('')
   const [design,setDesign] = useState('')
   const [annoucnement,setAnnouncement] = useState('')
+  const [queue,setQueue] = useState(0)
 
     const handleSubmit = async (e) =>{
         e.preventDefault();
@@ -36,6 +37,24 @@ function Orders() {
 
     }
 
+    const loadOrders = async () =>{
+      try{
+        let length = await await axios.get('http://localhost:3001/orders',{
+            headers:{
+              "Content-Type": "application/json"
+            }
+          })
+          console.log(length.json())
+      }
+      catch (error){
+        console.log("Error loading queue",error)
+      }
+    }
+
+    useEffect(()=>{
+      loadOrders();
+    })
+
   return (
     <div className={styles.Orders}>
       <div className={styles.list}>
@@ -48,7 +67,7 @@ function Orders() {
 
         </ul>
       </div>
-      <h2>Currently this many orders in the queue: Pull this number from database</h2>
+      <h2>Currently this many orders in the queue: {queue}</h2>
       <h2>{annoucnement}</h2>
       <form onSubmit={handleSubmit}>
         <input name='name' onChange={(e)=>{setName(e.target.value)}} placeholder='Name'/> 
