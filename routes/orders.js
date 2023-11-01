@@ -18,4 +18,16 @@ router.post("/", async (req, res) => {
   }
 });
 
+router.get("/", async (req, res) => {
+  console.log("Found orders get");
+  try {
+    let items = await Orders.find({});
+
+    res.send(items.length);
+  } catch (error) {
+    console.log(error._message);
+    res.status(400).json("An error occured while trying to find orders length");
+  }
+});
+
 module.exports = router;
