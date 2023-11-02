@@ -25,7 +25,7 @@ router.get("/", async (req, res) => {
 
     res.send(items.length);
   } catch (error) {
-    console.log(error._message);
+    console.log("error", error);
     res.status(400).json("An error occured while trying to find orders length");
   }
 });
