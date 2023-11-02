@@ -4,16 +4,19 @@
   justify-content: space-evenly;
   /* border: solid black; */
   /* background-color: black; */
-  /* background-image: url("../../images/Patches/blackdiamon.jpg"); */
   background-size: contain;
   /* height: 100px; */
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
 }
 
 a {
-  font-size: 25px;
-  margin: 15px;
-  background-image: url("../../images/Patches/PatchWhite2.jpg");
-  color: blue;
+  background-image: url("../../images/PatchWhite2.jpg");
+  font-size: 30px;
+  margin: 10px;
+  color: rgb(13, 134, 191);
+  font-weight: bold;
   background-size: contain;
   background-repeat: no-repeat;
   width: 220px;

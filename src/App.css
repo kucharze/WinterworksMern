@@ -1,10 +1,13 @@
 .App {
   text-align: center;
-  color: gray;
   padding: 10px;
-  background-image: url("./images/Blue2.jpg");
+  background-image: url("./images/Blackwhite.jpg");
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   /* height: 100vh; */
 }
 
@@ -21,5 +24,6 @@ h3 {
 
 .TopContact {
   display: flex;
-  background-image: url("./images/GrayBlack001.JPG");
+  background-image: url("./images/Darkgray002.JPG");
+  width: 100%;
 }

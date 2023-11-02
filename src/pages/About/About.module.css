@@ -3,8 +3,10 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: black;
   margin: 10px;
-  padding: 10px;
-  /* background-image: url("../../images/Blue2.jpg"); */
+  padding: 5px;
+  /* background-image: url("../../images/blackdiamond.jpg"); */
+  background-color: gray;
+  width: 1500px;
 }
 
 .list {
