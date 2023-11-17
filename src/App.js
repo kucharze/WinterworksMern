@@ -7,7 +7,7 @@ import ContactInfo from "./pages/Contact/ContactInfo";
 import About from "./pages/About/About";
 // import Designs from "./pages/Designs/Designs";
 import Orders from "./pages/Orders/Orders";
-import title from "./images/WinterWorks.PNG";
+import title from "./images/WW Page 1.png";
 
 function App() {
   return (
