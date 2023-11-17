@@ -1,6 +1,7 @@
 .Navbar {
   display: flex;
   align-items: center;
+  background-color: gold;
   justify-content: space-evenly;
   /* border: solid black; */
   /* background-color: black; */
