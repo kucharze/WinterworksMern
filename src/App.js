@@ -7,7 +7,7 @@ import ContactInfo from "./pages/Contact/ContactInfo";
 import About from "./pages/About/About";
 // import Designs from "./pages/Designs/Designs";
 import Orders from "./pages/Orders/Orders";
-import title from "./images/WW Page 1.png";
+import Logo from "./components/Logo/Logo";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <h1>Phone: 412-884-5278</h1>
       </div>
 
-      <img src={title} alt="" />
+      <Logo />
       <Navbar />
 
       <Routes>
