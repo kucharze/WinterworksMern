@@ -10,6 +10,8 @@ input {
 
 .Orders {
   padding: 20px;
+  background-color: lightblue;
+  width: 1400px;
 }
 
 .list {

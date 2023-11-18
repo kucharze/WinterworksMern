@@ -1,6 +1,8 @@
 .Contact {
   margin: 20px;
   padding: 5px;
-  font-size: 20px;
-  height: 300px;
+  font-size: 25px;
+  height: 400px;
+  width: 1000px;
+  background-color: blue;
 }
