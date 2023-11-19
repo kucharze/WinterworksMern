@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import axios from 'axios'
 import styles from './Orders.module.css'
-import text from '../../images/YourText.JPG'
+import text from '../../images/justforyou2.JPG'
 
 // const BASE_URL = 
 function Orders() {

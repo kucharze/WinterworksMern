@@ -10,8 +10,9 @@ input {
 
 .Orders {
   padding: 20px;
-  background-color: lightblue;
+  background-color: darkblue;
   width: 1400px;
+  color: white;
 }
 
 .list {
@@ -49,5 +50,5 @@ ul {
 }
 
 .text {
-  height: 150px;
+  height: 350px;
 }
