@@ -14,10 +14,10 @@
 }
 
 a {
-  background-image: url("../../images/PatchWhite2.jpg");
+  background-image: url("../../images/PatchBlue.jpg");
   font-size: 30px;
   margin: 10px;
-  color: rgb(13, 134, 191);
+  color: white;
   font-weight: bold;
   background-size: contain;
   background-repeat: no-repeat;

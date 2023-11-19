@@ -1,9 +1,12 @@
 img {
-  height: 300px;
+  height: 250px;
+  width: 400px;
+  border: solid white;
 }
 
 .Home {
   font-size: 20px;
   color: white;
-  background-color: white;
+  background-color: gray;
+  width: 1200px;
 }
