@@ -86,7 +86,8 @@ function Orders() {
           <option value="Other">Other</option>
         </select>
         {/* <input name='item' onChange={(e)=>{setItem(e.target.value)}} placeholder='Item(Will be changed to dropdown)'/> */}
-        <input name='design' onChange={(e)=>{setDesign(e.target.value)}} placeholder='Design'/><br/>
+        <input name='design' onChange={(e)=>{setDesign(e.target.value)}} 
+        placeholder='Describe what you want on your item'/><br/>
         <input className={styles.submit} type='submit'/>
       </form>
       <img src={text} alt="" className={styles.text} />
