@@ -10,7 +10,7 @@ input {
 
 .Orders {
   padding: 20px;
-  background-color: darkblue;
+  background-color: rgb(138, 2, 138, 0.5);
   width: 1400px;
   color: white;
 }
