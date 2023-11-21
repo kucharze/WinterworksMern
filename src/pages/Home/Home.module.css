@@ -9,8 +9,9 @@ img {
   color: white;
   /* background-color: rgba(187, 40, 40, 0.5); */
   background-image: linear-gradient(
-    rgba(178, 34, 34, 0.8),
-    rgba(70, 130, 180, 0.8)
+    rgba(70, 130, 180, 0.8),
+    rgba(178, 34, 34, 0.8)
   );
-  width: 1200px;
+  width: 1600px;
+  border-radius: 50px;
 }

@@ -10,6 +10,7 @@
     rgba(42, 109, 25, 0.5)
   );
   width: 1400px;
+  border-radius: 50px;
 }
 
 .list {

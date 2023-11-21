@@ -17,6 +17,7 @@ input {
   );
   width: 1400px;
   color: white;
+  border-radius: 50px;
 }
 
 .list {
