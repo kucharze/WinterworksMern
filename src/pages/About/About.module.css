@@ -5,7 +5,10 @@
   margin: 10px;
   padding: 5px;
   /* background-image: url("../../images/blackdiamond.jpg"); */
-  background-color: rgba(42, 109, 25, 0.5);
+  background-image: linear-gradient(
+    rgba(70, 130, 180, 0.8),
+    rgba(42, 109, 25, 0.5)
+  );
   width: 1400px;
 }
 

@@ -7,6 +7,10 @@ img {
 .Home {
   font-size: 20px;
   color: white;
-  background-color: rgba(187, 40, 40, 0.5);
+  /* background-color: rgba(187, 40, 40, 0.5); */
+  background-image: linear-gradient(
+    rgba(178, 34, 34, 0.8),
+    rgba(70, 130, 180, 0.8)
+  );
   width: 1200px;
 }

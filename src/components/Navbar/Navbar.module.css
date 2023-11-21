@@ -1,7 +1,13 @@
 .Navbar {
   display: flex;
   align-items: center;
-  background-color: black;
+  background-color: rgba(70, 130, 180, 0.8);
+  /* from https://blog.logrocket.com/guide-image-overlays-css/#using-linear-gradient-css-function */
+  /* background-image: linear-gradient(
+      rgba(70, 130, 180, 0.8),
+      rgba(178, 34, 34, 0.8)
+    ),
+    url("../../images/beige-edges.jpg"); */
   justify-content: space-evenly;
   /* border: solid black; */
   /* background-color: black; */
