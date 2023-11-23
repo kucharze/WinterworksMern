@@ -20,12 +20,7 @@
 }
 
 a {
-  /* background-image: url("../../images/Buttons/TabAbout.jpg"); */
-  /* background-color: darkblue; */
-  font-size: 30px;
   margin: 10px;
-  color: white;
-  font-weight: bold;
   background-size: contain;
   background-repeat: no-repeat;
   width: 220px;
