@@ -20,7 +20,7 @@
 }
 
 a {
-  /* background-image: url("../../images/PatchBlue.jpg"); */
+  /* background-image: url("../../images/Buttons/TabAbout.jpg"); */
   /* background-color: darkblue; */
   font-size: 30px;
   margin: 10px;
@@ -36,4 +36,20 @@ a {
   flex-direction: column;
   align-items: right;
   justify-content: center;
+}
+
+.home {
+  background-image: url("../../images/Buttons/TabHomejpg.jpg");
+}
+
+.about {
+  background-image: url("../../images/Buttons/TabAbout.jpg");
+}
+
+.order {
+  background-image: url("../../images/Buttons/TabOrders.jpg");
+}
+
+.contact {
+  background-image: url("../../images/Buttons/TabContact.jpg");
 }
