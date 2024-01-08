@@ -20,11 +20,8 @@
   text-align: center;
   justify-content: center;
   /* width: 800px; */
+  /* margin: 20px; */
 }
 ol {
   list-style: none;
-}
-li {
-  width: 1200px;
-  margin: 10px;
 }
