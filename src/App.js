@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <div className="TopContact">
-        <h1>Email: Winterworks@gmail.com</h1>
+        <h1>Email: Winterworks1@gmail.com</h1>
         <h1>Phone: 412-884-5278</h1>
       </div>
 
