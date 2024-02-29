@@ -1,8 +1,8 @@
 .LOGO {
-  background-image: url("../../images/wwthread250.jpg");
-  background-size: contain;
+  background-image: url("../../images/bg3.jpg");
+  background-size: cover;
   width: 100%;
-  height: 600px;
+  height: 650px;
 }
 
 .title {
