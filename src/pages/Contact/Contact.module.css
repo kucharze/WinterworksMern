@@ -1,9 +1,10 @@
 .Contact {
   margin: 20px;
-  padding: 5px;
+  padding: 15px;
   font-size: 25px;
   height: 400px;
   width: 1000px;
+  margin: 20px;
   background-image: linear-gradient(
     rgba(70, 130, 180, 0.8),
     rgb(3, 3, 155, 0.5)
