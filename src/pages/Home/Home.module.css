@@ -12,7 +12,21 @@ img {
     rgba(70, 130, 180, 0.8),
     rgba(178, 34, 34, 0.8)
   );
-  width: 1600px;
+  width: 100%;
   margin: 20px;
   border-radius: 50px;
+}
+
+@media (max-width: 1400px) {
+  .Home {
+    font-size: 18px;
+    width: 90%;
+    margin: 15px;
+    border-radius: 50px;
+  }
+
+  img {
+    height: 160px;
+    width: 230px;
+  }
 }
