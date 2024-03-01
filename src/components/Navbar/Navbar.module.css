@@ -48,3 +48,25 @@ a {
 .contact {
   background-image: url("../../images/Buttons/TabContact.jpg");
 }
+
+@media (max-width: 1600px) {
+  .Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-size: contain;
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 10px;
+  }
+
+  a {
+    margin: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 80px;
+  }
+}
