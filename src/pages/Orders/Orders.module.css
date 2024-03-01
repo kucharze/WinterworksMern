@@ -58,3 +58,50 @@ ul {
 .text {
   height: 350px;
 }
+@media (max-width: 1600px) {
+  .Orders {
+    padding: 10px;
+    width: 1300px;
+    margin: 15px;
+  }
+
+  input {
+    margin: 10px;
+    height: 50px;
+    width: 350px;
+    font-size: 17px;
+  }
+
+  .submit {
+    width: 150px;
+  }
+
+  .list {
+    font-size: 20px;
+    /* width: 800px; */
+  }
+
+  .title {
+    width: 300px;
+    /* height: 0px; */
+  }
+
+  li {
+    width: 900px;
+    margin: 10px;
+  }
+
+  select {
+    height: 60px;
+    width: 140px;
+    font-size: 20px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .text {
+    height: 300px;
+  }
+}
