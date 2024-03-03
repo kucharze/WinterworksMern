@@ -45,9 +45,11 @@ function Orders() {
             }
           })
           console.log(length.json())
+          setQueue(length)
       }
       catch (error){
         console.log("Error loading queue",error)
+        setQueue("Error")
       }
     }
 
