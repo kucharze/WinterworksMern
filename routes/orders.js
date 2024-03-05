@@ -22,8 +22,6 @@ router.get("/", async (req, res) => {
   console.log("Found orders get");
   try {
     let items = await Orders.find({});
-    console.log("Orders ok");
-    console.log(items.length);
     res.status(200).json({ length: items.length });
   } catch (error) {
     console.log("error", error);
