@@ -22,11 +22,14 @@ router.get("/", async (req, res) => {
   console.log("Found orders get");
   try {
     let items = await Orders.find({});
-
-    res.send(items.length);
+    console.log("Orders ok");
+    console.log(items.length);
+    res.status(200).json({ length: items.length });
   } catch (error) {
     console.log("error", error);
-    res.status(400).json("An error occured while trying to find orders length");
+    res
+      .status(400)
+      .json("An error occured while trying to find orders length " + error);
   }
 });
 

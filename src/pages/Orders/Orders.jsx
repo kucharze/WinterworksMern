@@ -44,8 +44,8 @@ function Orders() {
               "Content-Type": "application/json"
             }
           })
-          console.log(length.json())
-          setQueue(length)
+          console.log(length.data.length)
+          setQueue(length.data.length)
       }
       catch (error){
         console.log("Error loading queue",error)
