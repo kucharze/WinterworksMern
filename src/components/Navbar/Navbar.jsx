@@ -5,12 +5,12 @@ import styles from './Navbar.module.css'
 function Navbar() {
   return (
     <div className={styles.Navbar}>
-        <Link className={styles.home} to={'/'}></Link>
-        <Link className={styles.about} to={'/about'}></Link>
+        <Link className={styles.navbtn} to={'/'}>HOME</Link>
+        <Link className={styles.navbtn} to={'/about'}>Products</Link>
         {/* <Link to={'/designs'}>Designs</Link> */}
         {/* <Link to={'/products'}>Products</Link> */}
-        <Link className={styles.order} to={'/placeOrder'}></Link>
-        <Link className={styles.contact} to={'/contactinfo'}></Link>
+        <Link className={styles.navbtn} to={'/placeOrder'}>Info</Link>
+        <Link className={styles.navbtn} to={'/contactinfo'}>Contacts</Link>
     </div>
   )
 }
