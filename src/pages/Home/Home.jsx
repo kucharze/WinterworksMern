@@ -17,8 +17,8 @@ import bags2 from '../../images/08_20_14_Coach Bag_Kelly Kennedy/08_20_14_001.jp
 function Home() {
   return (
     <div className={styles.Home}>
-        <h2>Welcome to Winterworks</h2>
-        <h3>Check out our designs</h3>
+        <h2 className={styles.title}>Welcome to Winterworks</h2>
+        <h2>Check out our designs</h2>
         <h1>Showing our school spirit</h1>
         <img src={brentwood} alt="" />
         <img src={brentwood2} alt="" />

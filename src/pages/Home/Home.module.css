@@ -17,6 +17,10 @@ img {
   border-radius: 50px;
 }
 
+.title {
+  font-size: 50px;
+}
+
 @media (max-width: 1600px) {
   .Home {
     font-size: 18px;
