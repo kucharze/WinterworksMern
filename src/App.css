@@ -27,13 +27,12 @@ h3 {
 
 .TopContact {
   display: flex;
-  background-image: url("./images/Darkgray002.JPG");
+  background-color: black;
   width: 100%;
 }
 @media (max-width: 1600px) {
   .TopContact {
     display: flex;
-    background-image: url("./images/Darkgray002.JPG");
     width: 95%;
   }
 }
