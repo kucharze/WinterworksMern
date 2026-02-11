@@ -1,5 +1,5 @@
 import React from 'react'
-import title from "../../images/logos/WWL wood1.png";
+import title from "../../images/logos/WW1 Logo Clear.png";
 // import title from "../../images/Ww3.PNG";
 import styles from './Logo.module.css'
 
