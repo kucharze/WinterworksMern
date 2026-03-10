@@ -11,7 +11,7 @@ function Orders() {
   const [item,setItem] = useState('')
   const [design,setDesign] = useState('')
   const [annoucnement,setAnnouncement] = useState('')
-  const [queue,setQueue] = useState(0)
+  const [queue,setQueue] = useState("Loading...")
 
     const handleSubmit = async (e) =>{
         e.preventDefault();
