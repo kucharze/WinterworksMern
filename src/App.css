@@ -18,6 +18,13 @@ img {
   height: 50%;
 }
 
+.text-gray-300 {
+  color: rgb(226, 226, 226);
+  background-color: rgb(95, 58, 9);
+  width: 70%;
+  font-size: 40px;
+}
+
 h1,
 h2,
 h3 {
