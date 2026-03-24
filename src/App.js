@@ -18,6 +18,12 @@ function App() {
       </div>
 
       <Logo />
+      <p className="text-gray-300 leading-relaxed">
+        Every piece is handcrafted from reclaimed wood and metal, giving new
+        life to materials with history. No two designs are ever the same — each
+        creation is built with precision, passion, and durability in mind.
+      </p>
+
       <Navbar />
 
       <Routes>
@@ -27,6 +33,20 @@ function App() {
         <Route path="/placeOrder" element={<Orders />} />
         <Route path="/contactinfo" element={<ContactInfo />} />
       </Routes>
+      <footer className="py-10 px-6 md:px-20 text-center border-t border-gray-700">
+        <h3 className="text-xl font-semibold mb-2">Winter Works</h3>
+        <p className="text-gray-400 mb-4">Custom Wood & Metal Creations</p>
+
+        <div className="flex justify-center gap-6 text-gray-400">
+          <a href="#">Gallery</a>
+          <a href="#">Contact</a>
+          <a href="#">Custom Orders</a>
+        </div>
+
+        <p className="text-gray-500 text-sm mt-6">
+          © {new Date().getFullYear()} Winter Works. All rights reserved.
+        </p>
+      </footer>
     </div>
   );
 }
