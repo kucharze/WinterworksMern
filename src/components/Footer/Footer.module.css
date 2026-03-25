@@ -23,3 +23,9 @@ footer a {
   gap: 20px;
   color: rgb(226, 226, 226);
 }
+
+@media (max-width: 1600px) {
+  footer {
+    width: 1200px;
+  }
+}
