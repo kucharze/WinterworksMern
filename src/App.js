@@ -9,6 +9,7 @@ import About from "./pages/About/About";
 import Orders from "./pages/Orders/Orders";
 import Logo from "./components/Logo/Logo";
 import Footer from "./components/Footer/Footer";
+import pieces from "./images/logos/Each Piece 1.png";
 
 function App() {
   return (
@@ -19,10 +20,6 @@ function App() {
       </div>
 
       <Logo />
-      <p className="text-gray-300 leading-relaxed">
-        Every piece is handcrafted from wood, metal or slate. <br />
-        Each creation is built with precision, passion, and durability in mind.
-      </p>
 
       <Navbar />
 
