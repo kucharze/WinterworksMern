@@ -49,7 +49,7 @@ function Home() {
         <h1>Handhelds</h1>
         <img src={bags} alt="" />
         <img src={bags2} alt="" />
-        <h1>Wood items</h1>
+        <h1>Engraved items</h1>
         <img src={wood1} alt="Mom's Cutting Board" />
         <img src={wood2} alt="Cutting Board 2" />
         <img src={wood3} alt="Cutting Mug 1 mom" />
