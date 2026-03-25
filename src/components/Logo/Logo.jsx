@@ -7,8 +7,13 @@ import styles from './Logo.module.css'
 function Logo() {
   return (
     <div className={styles.LOGO}>
-      <img src={title} alt="" className={styles.title}/>
-      <img src={pieces} alt="" className={styles.pieces}/>
+      <div className={styles.titleContainer}>
+        <img src={title} alt="Winterworks Logo" className={styles.title}/>
+      </div>
+      <div className={styles.piecesContainer}>
+        <img src={pieces} alt="Each Piece" className={styles.pieces}/>
+      </div>
+      
     </div>
   )
 }
