@@ -52,4 +52,14 @@ footer {
   footer a {
     font-size: 25px;
   }
+  .buttonrow {
+    gap: 25px;
+  }
+  .navbtn {
+    text-decoration: none;
+    padding: 10px 32px;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: 600;
+  }
 }
