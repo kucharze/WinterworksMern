@@ -11,6 +11,7 @@ function Footer() {
 
         <div className={styles.buttonrow}>
           <Link to="/">Gallery</Link>
+          <Link to={'/about'}>Info</Link>
           <Link to="/contactinfo">Contacts</Link>
           <Link to="/placeOrder">Custom Orders</Link>
         </div>
