@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './Home.module.css'
+import pieces from "../../images/logos/Each Piece 1.png";
+
 import brentwood from '../../images/01 10 12_Brentwood Symbols/01 10 12 016.jpg'
 import brentwood2 from '../../images/01 10 12_Brentwood Symbols/01 10 12 051.jpg'
 import baby from '../../images/03 19 12_Baby Bib Quotes/03 19 12 001.jpg'
@@ -49,6 +51,7 @@ function Home() {
         <h1>Handhelds</h1>
         <img src={bags} alt="" />
         <img src={bags2} alt="" />
+
         <h1>Engraved items</h1>
         <img src={wood1} alt="Mom's Cutting Board" />
         <img src={wood2} alt="Cutting Board 2" />
@@ -59,6 +62,10 @@ function Home() {
         <img src={wood7} alt="WW Clock rose" />
         <img src={wood8} alt="WW Cutting Board - Pens" />
         <img src={wood9} alt="WW tops off" />
+        <div className={styles.piecesContainer}>
+            <img src={pieces} 
+            alt="Each Piece" className={styles.pieces} />
+        </div>
     </div>
   )
 } 
