@@ -21,11 +21,10 @@ import wood3 from '../../images/Wood items/Cutting Mug 1 mom.jpg'
 import wood4 from '../../images/Wood items/ww 5 o clock.jpg'
 import wood5 from '../../images/Wood items/WW Beer openers.jpg'
 
-import wood6 from '../../images/Wood items/WW Beer openers.jpg'
-import wood7 from '../../images/Wood items/WW Beer openers.jpg'
-import wood8 from '../../images/Wood items/WW Beer openers.jpg'
-import wood9 from '../../images/Wood items/WW Beer openers.jpg'
-import wood10 from '../../images/Wood items/WW Beer openers.jpg'
+import wood6 from '../../images/Wood items/WW Clock 1.jfif'
+import wood7 from '../../images/Wood items/WW Clock rose.jpg'
+import wood8 from '../../images/Wood items/ww Cutting Board - Pens.jpg'
+import wood9 from '../../images/Wood items/WW tops off.jpg'
 function Home() {
   return (
     <div className={styles.Home}>
@@ -51,16 +50,15 @@ function Home() {
         <img src={bags} alt="" />
         <img src={bags2} alt="" />
         <h1>Wood items</h1>
-        <img src={wood1} alt="" />
-        <img src={wood2} alt="" />
-        <img src={wood3} alt="" />
-        <img src={wood4} alt="" />
-        <img src={wood5} alt="" />
-        <img src={wood6} alt="" />
-        <img src={wood7} alt="" />
-        <img src={wood8} alt="" />
-        <img src={wood9} alt="" />
-        <img src={wood10} alt="" />
+        <img src={wood1} alt="Mom's Cutting Board" />
+        <img src={wood2} alt="Cutting Board 2" />
+        <img src={wood3} alt="Cutting Mug 1 mom" />
+        <img src={wood4} alt="WW 5 O'Clock" />
+        <img src={wood5} alt="WW Beer Openers" />
+        <img src={wood6} alt="WW Clock 1" />
+        <img src={wood7} alt="WW Clock rose" />
+        <img src={wood8} alt="WW Cutting Board - Pens" />
+        <img src={wood9} alt="WW tops off" />
     </div>
   )
 } 
