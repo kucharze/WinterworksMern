@@ -34,6 +34,24 @@ h3 {
   width: 100%;
 }
 
+footer {
+  /* py-10 px-6 md:px-20 border-t border-gray-700 */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  background-color: rgb(80, 47, 4);
+  color: rgb(226, 226, 226);
+  padding: 20px;
+  /* height: 300px; */
+  width: 100%;
+}
+
+footer a {
+  color: rgb(226, 226, 226);
+}
+
 .TopContact {
   display: flex;
   background-color: black;
