@@ -9,7 +9,6 @@ import About from "./pages/About/About";
 import Orders from "./pages/Orders/Orders";
 import Logo from "./components/Logo/Logo";
 import Footer from "./components/Footer/Footer";
-import pieces from "./images/logos/Each Piece 1.png";
 
 function App() {
   return (
