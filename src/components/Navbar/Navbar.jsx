@@ -9,7 +9,7 @@ function Navbar() {
         <Link className={styles.navbtn} to={'/about'}>Info</Link>
         {/* <Link to={'/designs'}>Designs</Link> */}
         {/* <Link to={'/products'}>Products</Link> */}
-        <Link className={styles.navbtn} to={'/placeOrder'}>Product Orders</Link>
+        <Link className={styles.navbtn} to={'/placeOrder'}>Custom Orders</Link>
         <Link className={styles.navbtn} to={'/contactinfo'}>Contacts</Link>
     </div>
   )
