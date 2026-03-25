@@ -14,6 +14,12 @@ import cash3 from '../../images/04 26 12_ATM Cash World/04 16 12 002.jpg'
 import bags from '../../images/08_20_14_Coach Bag_Kelly Kennedy/08_20_14_002.jpg'
 import bags2 from '../../images/08_20_14_Coach Bag_Kelly Kennedy/08_20_14_001.jpg'
 
+//Wood items
+import wood1 from '../../images/01 10 12_Brentwood Symbols/01 10 12 016.jpg'
+import wood2 from '../../images/01 10 12_Brentwood Symbols/01 10 12 051.jpg'
+import wood3 from '../../images/02 13 14_Quinnie Blanket/02 13 14 002.jpg'
+import wood4 from '../../images/03 19 12_Baby Bib Quotes/03 19 12 001.jpg'
+import wood5 from '../../images/03 19 12_Baby Bib Quotes/03 19 12 003.jpg'
 function Home() {
   return (
     <div className={styles.Home}>
@@ -38,6 +44,12 @@ function Home() {
         <h1>Handhelds</h1>
         <img src={bags} alt="" />
         <img src={bags2} alt="" />
+        <h1>Wood items</h1>
+        <img src={wood1} alt="" />
+        <img src={wood2} alt="" />
+        <img src={wood3} alt="" />
+        <img src={wood4} alt="" />
+        <img src={wood5} alt="" />
     </div>
   )
 } 
