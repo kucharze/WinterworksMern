@@ -15,11 +15,17 @@ import bags from '../../images/08_20_14_Coach Bag_Kelly Kennedy/08_20_14_002.jpg
 import bags2 from '../../images/08_20_14_Coach Bag_Kelly Kennedy/08_20_14_001.jpg'
 
 //Wood items
-import wood1 from '../../images/01 10 12_Brentwood Symbols/01 10 12 016.jpg'
-import wood2 from '../../images/01 10 12_Brentwood Symbols/01 10 12 051.jpg'
-import wood3 from '../../images/02 13 14_Quinnie Blanket/02 13 14 002.jpg'
-import wood4 from '../../images/03 19 12_Baby Bib Quotes/03 19 12 001.jpg'
-import wood5 from '../../images/03 19 12_Baby Bib Quotes/03 19 12 003.jpg'
+import wood1 from '../../images/Wood items/Cutting Board 2.jpg'
+import wood2 from '../../images/Wood items/Cutting Board 3.jpg'
+import wood3 from '../../images/Wood items/Cutting Mug 1 mom.jpg'
+import wood4 from '../../images/Wood items/ww 5 o clock.jpg'
+import wood5 from '../../images/Wood items/WW Beer openers.jpg'
+
+import wood6 from '../../images/Wood items/WW Beer openers.jpg'
+import wood7 from '../../images/Wood items/WW Beer openers.jpg'
+import wood8 from '../../images/Wood items/WW Beer openers.jpg'
+import wood9 from '../../images/Wood items/WW Beer openers.jpg'
+import wood10 from '../../images/Wood items/WW Beer openers.jpg'
 function Home() {
   return (
     <div className={styles.Home}>
@@ -50,6 +56,11 @@ function Home() {
         <img src={wood3} alt="" />
         <img src={wood4} alt="" />
         <img src={wood5} alt="" />
+        <img src={wood6} alt="" />
+        <img src={wood7} alt="" />
+        <img src={wood8} alt="" />
+        <img src={wood9} alt="" />
+        <img src={wood10} alt="" />
     </div>
   )
 } 
