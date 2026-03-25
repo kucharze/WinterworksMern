@@ -17,10 +17,11 @@
   width: 95%;
   margin: 10px;
   padding: 10px;
+  gap: 20px;
 }
 
 a {
-  margin: 10px;
+  /* margin: 10px; */
   background-size: contain;
   background-repeat: no-repeat;
   width: 220px;
