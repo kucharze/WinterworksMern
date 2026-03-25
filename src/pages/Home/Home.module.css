@@ -21,6 +21,13 @@ img {
   font-size: 50px;
 }
 
+.pieces {
+  height: 200px;
+  width: 900px;
+  border: none;
+  margin: 15px;
+}
+
 @media (max-width: 1600px) {
   .Home {
     font-size: 18px;
