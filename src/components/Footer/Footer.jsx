@@ -10,10 +10,10 @@ function Footer() {
         <p className="text-gray-400 mb-4">Custom Wood & Metal Creations</p>
 
         <div className={styles.buttonrow}>
-          <Link to="/">Gallery</Link>
-          <Link to={'/about'}>Info</Link>
-          <Link to="/contactinfo">Contacts</Link>
-          <Link to="/placeOrder">Custom Orders</Link>
+          <Link className={styles.navbtn} to="/">Gallery</Link>
+          <Link className={styles.navbtn} to={'/about'}>About Us</Link>
+          <Link className={styles.navbtn} to="/contactinfo">Contacts</Link>
+          <Link className={styles.navbtn} to="/placeOrder">Custom Orders</Link>
         </div>
 
         <p className="text-gray-500 text-sm mt-6">
