@@ -20,8 +20,8 @@ function App() {
       <Logo />
       <p className="text-gray-300 leading-relaxed">
         Every piece is handcrafted from reclaimed wood and metal, giving new
-        life to materials with history. No two designs are ever the same — each
-        creation is built with precision, passion, and durability in mind.
+        life to materials with history. Each creation is built with precision,
+        passion, and durability in mind.
       </p>
 
       <Navbar />
