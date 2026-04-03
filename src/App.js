@@ -22,6 +22,10 @@ function App() {
 
       <Navbar />
 
+      {/* Alternate idea: 
+      Change to one long page that changes color as it goes down
+      Remove tabs as a result??? */}
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
