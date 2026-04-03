@@ -21,6 +21,11 @@ img {
   font-size: 50px;
 }
 
+.sectionTitle {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
 .pieces {
   height: 200px;
   width: 900px;

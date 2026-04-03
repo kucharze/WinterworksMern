@@ -31,7 +31,7 @@ function Home() {
   return (
     <div className={styles.Home}>
         <h2 className={styles.title}>Welcome to Winterworks</h2>
-        <h2>Check out our designs</h2>
+        <h2 className={styles.sectionTitle}>Check out our designs</h2>
         <h1>Engraved items</h1>
         <div className={styles.piecesContainer}>
             <img src={pieces} 
@@ -46,23 +46,27 @@ function Home() {
         <img src={wood7} alt="WW Clock rose" />
         <img src={wood8} alt="WW Cutting Board - Pens" />
         <img src={wood9} alt="WW tops off" />
-        <h1>Showing our school spirit</h1>
+
+        <h1 className={styles.sectionTitle}>Showing our school spirit</h1>
         <img src={brentwood} alt="" />
         <img src={brentwood2} alt="" />
-        <h1>Children's items</h1>
+        
+        <h1 className={styles.sectionTitle}>Children's items</h1>
         <img src={baby} alt="" />
         <img src={baby2} alt="" />
         <img src={child} alt="" />
         <br/>
-        <h1>Wearables</h1>
+        <h1 className={styles.sectionTitle}>Wearables</h1>
         <img src={car} alt="" />
         <img src={car2} alt="" />
         <img src={car3} alt="" />
-        <h1>Logos</h1>
+
+        <h1 className={styles.sectionTitle}>Logos</h1>
         <img src={cash} alt="" />
         <img src={cash2} alt="" />
         <img src={cash3} alt="" />
-        <h1>Handhelds</h1>
+        
+        <h1 className={styles.sectionTitle}>Handhelds</h1>
         <img src={bags} alt="" />
         <img src={bags2} alt="" />
         
