@@ -29,6 +29,7 @@ h3 {
   display: flex;
   background-color: black;
   width: 98%;
+  position: fixed;
 }
 @media (max-width: 1600px) {
   .TopContact {
