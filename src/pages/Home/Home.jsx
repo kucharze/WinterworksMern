@@ -32,6 +32,20 @@ function Home() {
     <div className={styles.Home}>
         <h2 className={styles.title}>Welcome to Winterworks</h2>
         <h2>Check out our designs</h2>
+        <h1>Engraved items</h1>
+        <div className={styles.piecesContainer}>
+            <img src={pieces} 
+            alt="Each Piece" className={styles.pieces} />
+        </div>
+        <img src={wood1} alt="Mom's Cutting Board" />
+        <img src={wood2} alt="Cutting Board 2" />
+        <img src={wood3} alt="Cutting Mug 1 mom" />
+        <img src={wood4} alt="WW 5 O'Clock" />
+        <img src={wood5} alt="WW Beer Openers" />
+        <img src={wood6} alt="WW Clock 1" />
+        <img src={wood7} alt="WW Clock rose" />
+        <img src={wood8} alt="WW Cutting Board - Pens" />
+        <img src={wood9} alt="WW tops off" />
         <h1>Showing our school spirit</h1>
         <img src={brentwood} alt="" />
         <img src={brentwood2} alt="" />
@@ -51,21 +65,7 @@ function Home() {
         <h1>Handhelds</h1>
         <img src={bags} alt="" />
         <img src={bags2} alt="" />
-
-        <h1>Engraved items</h1>
-        <img src={wood1} alt="Mom's Cutting Board" />
-        <img src={wood2} alt="Cutting Board 2" />
-        <img src={wood3} alt="Cutting Mug 1 mom" />
-        <img src={wood4} alt="WW 5 O'Clock" />
-        <img src={wood5} alt="WW Beer Openers" />
-        <img src={wood6} alt="WW Clock 1" />
-        <img src={wood7} alt="WW Clock rose" />
-        <img src={wood8} alt="WW Cutting Board - Pens" />
-        <img src={wood9} alt="WW tops off" />
-        <div className={styles.piecesContainer}>
-            <img src={pieces} 
-            alt="Each Piece" className={styles.pieces} />
-        </div>
+        
     </div>
   )
 } 
