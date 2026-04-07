@@ -37,12 +37,7 @@ ol {
   }
 
   .list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    /* width: 800px; */
-    /* margin: 20px; */
+    width: 800px;
+    margin: 20px;
   }
 }
