@@ -21,6 +21,10 @@ img {
   font-size: 50px;
 }
 
+.imgcontainer:hover {
+  transform: scale(1.2); /* Zooms to 120% */
+}
+
 .sectionTitle {
   font-size: 40px;
   text-decoration: underline;

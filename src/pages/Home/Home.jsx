@@ -37,38 +37,36 @@ function Home() {
             <img src={pieces} 
             alt="Each Piece" className={styles.pieces} />
         </div>
-        <img src={wood1} alt="Mom's Cutting Board" />
-        <img src={wood2} alt="Cutting Board 2" />
-        <img src={wood3} alt="Cutting Mug 1 mom" />
-        <img src={wood4} alt="WW 5 O'Clock" />
-        <img src={wood5} alt="WW Beer Openers" />
-        <img src={wood6} alt="WW Clock 1" />
-        <img src={wood7} alt="WW Clock rose" />
-        <img src={wood8} alt="WW Cutting Board - Pens" />
-        <img src={wood9} alt="WW tops off" />
+        <img className={styles.imgcontainer} src={wood1} alt="Mom's Cutting Board" />
+        <img className={styles.imgcontainer} src={wood2} alt="Cutting Board 2" />
+        <img className={styles.imgcontainer} src={wood3} alt="Cutting Mug 1 mom" />
+        <img className={styles.imgcontainer} src={wood4} alt="WW 5 O'Clock" />
+        <img className={styles.imgcontainer} src={wood5} alt="WW Beer Openers" />
+        <img className={styles.imgcontainer} src={wood6} alt="WW Clock 1" />
+        <img className={styles.imgcontainer} src={wood7} alt="WW Clock rose" />
+        <img className={styles.imgcontainer} src={wood8} alt="WW Cutting Board - Pens" />
+        <img className={styles.imgcontainer} src={wood9} alt="WW tops off" />
 
         <h1 className={styles.sectionTitle}>Showing our school spirit</h1>
-        <img src={brentwood} alt="" />
-        <img src={brentwood2} alt="" />
+        <img className={styles.imgcontainer} src={brentwood} alt="" />
+        <img className={styles.imgcontainer} src={brentwood2} alt="" />
         
         <h1 className={styles.sectionTitle}>Children's items</h1>
-        <img src={baby} alt="" />
-        <img src={baby2} alt="" />
-        <img src={child} alt="" />
+        <img className={styles.imgcontainer} src={baby} alt="" />
+        <img className={styles.imgcontainer} src={baby2} alt="" />
+        <img className={styles.imgcontainer} src={child} alt="" />
         <br/>
         <h1 className={styles.sectionTitle}>Wearables</h1>
-        <img src={car} alt="" />
-        <img src={car2} alt="" />
-        <img src={car3} alt="" />
-
+        <img className={styles.imgcontainer} src={car} alt="" />
+        <img className={styles.imgcontainer} src={car2} alt="" />
+        <img className={styles.imgcontainer} src={car3} alt="" />
         <h1 className={styles.sectionTitle}>Logos</h1>
-        <img src={cash} alt="" />
-        <img src={cash2} alt="" />
-        <img src={cash3} alt="" />
-        
+        <img className={styles.imgcontainer} src={cash} alt="" />
+        <img className={styles.imgcontainer} src={cash2} alt="" />
+        <img className={styles.imgcontainer} src={cash3} alt="" />
         <h1 className={styles.sectionTitle}>Handhelds</h1>
-        <img src={bags} alt="" />
-        <img src={bags2} alt="" />
+        <img className={styles.imgcontainer} src={bags} alt="" />
+        <img className={styles.imgcontainer} src={bags2} alt="" />
         
     </div>
   )
