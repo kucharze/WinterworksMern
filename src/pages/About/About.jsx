@@ -4,7 +4,7 @@ import styles from './About.module.css'
 function About() {
   return (
     <div className={styles.About}>
-      <h1>All created from a mom who likes to sow.</h1>
+      <h1>All created from a mom who likes to sew.</h1>
       <p>Have any questions, check out out Contact info and shoot us a call or email.</p>
 
       <div className={styles.list}>
