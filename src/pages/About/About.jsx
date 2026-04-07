@@ -3,23 +3,15 @@ import styles from './About.module.css'
 
 function About() {
   return (
-    <div className={styles.About}>
-      <h1>All created from a mom who likes to sew.</h1>
-      <p>Have any questions, check out out Contact info and shoot us a call or email.</p>
-
-      <div className={styles.list}>
-        <ol>
-          <li>Our products are purchased from various venders.  Availability of specific items can depend on what they have in stock.</li>
-          <br/>
-          <li>Go to our Orders page for questions.</li>
-          <br/>
-          <li>Submit your order.  Including a description of the design you want, 
-            as well as a valid email and phone number.
-          </li>
-        </ol>
-      </div>
-      
-    </div>
+<section id="about" className={styles.About}>
+      <h2 className="text-3xl font-bold mb-6">About Winter Works</h2>
+      <p className="text-lg text-gray-700">
+        At Winter Works, we specialize in handcrafted wood and metal designs.
+        Every piece is built with precision, creativity, and durability in mind.
+        From custom signs to unique furniture, our work blends rustic materials
+        with modern craftsmanship.
+      </p>
+    </section>
   )
 }
 
