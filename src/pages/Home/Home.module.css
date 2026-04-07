@@ -22,7 +22,8 @@ img {
 }
 
 .imgcontainer:hover {
-  transform: scale(1.2); /* Zooms to 120% */
+  transform: scale(1.3); /* Zooms to 120% */
+  transition: transform 0.5s ease;
 }
 
 .sectionTitle {
