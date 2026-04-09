@@ -5,7 +5,6 @@ import text from '../../images/justforyou2.JPG'
 
 // const BASE_URL = 
 function Orders() {
-  const [annoucnement,setAnnouncement] = useState('')
   const [queue,setQueue] = useState("Loading...")
 
     const loadOrders = async () =>{
@@ -44,8 +43,8 @@ function Orders() {
       <p>You can order items such as: Shirt, Blanket, Hat, Handheld.</p>
       <p>If you would like something different.  Please specify</p>
 
-      <h2>Currently this many orders in the queue: {queue}</h2>
-      <h2>{annoucnement}</h2>
+      {/* <h2>Currently this many orders in the queue: {queue}</h2>
+      <h2>{annoucnement}</h2> */}
       <h2 className="text-3xl font-bold mb-4">
         Ready for a Custom Piece?
       </h2>
@@ -67,6 +66,7 @@ export default Orders
 
 //Backup code to fall back on if needed:
 
+// const [annoucnement,setAnnouncement] = useState('')
 // const [name,setName] = useState('')
   // const [phoneNumber,setPhoneNumber] = useState('')
   // const [email,setEmail] = useState('')
