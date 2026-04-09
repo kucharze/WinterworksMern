@@ -34,13 +34,20 @@ function App() {
         <ContactInfo />
       </div> */}
 
-      <Routes>
+      <div className="MainContent">
+        <Home />
+        <About />
+        <Orders />
+        <ContactInfo />
+      </div>
+
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/products" element={<Products />} /> */}
+        {/* <Route path="/products" element={<Products />} /> 
         <Route path="/placeOrder" element={<Orders />} />
         <Route path="/contactinfo" element={<ContactInfo />} />
-      </Routes>
+      </Routes> */}
 
       <Footer />
     </div>
