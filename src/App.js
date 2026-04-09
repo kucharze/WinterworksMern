@@ -22,18 +22,6 @@ function App() {
 
       <Navbar />
 
-      {/* Alternate idea: 
-      Change to one long page that changes color as it goes down
-      Remove tabs as a result??? */}
-      {/* <div>
-        <h1>Welcome to Our Website</h1>
-        <p>This is a simple React app with multiple pages.</p>
-        <Home />
-        <About />
-        <Orders />
-        <ContactInfo />
-      </div> */}
-
       <div className="MainContent">
         <Home />
         <About />
