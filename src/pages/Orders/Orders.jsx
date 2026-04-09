@@ -92,6 +92,12 @@ function Orders() {
         placeholder='Describe what you want on your item'/><br/>
         <input className={styles.submit} type='submit'/>
       </form>
+      <a
+        href="mailto:winterworks1@gmail.com"
+        className="bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition"
+      >
+        Get in Touch
+      </a>
       <img src={text} alt="" className={styles.text} />
     </div>
   )
