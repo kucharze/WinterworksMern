@@ -29,7 +29,7 @@ function App() {
         <Home />
         <About />
         <Orders />
-        <ContactInfo />
+        {/* <ContactInfo /> */}
       </div>
 
       {/* <Routes>

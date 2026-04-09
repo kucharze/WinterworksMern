@@ -10,7 +10,7 @@ function Navbar() {
         {/* <Link to={'/designs'}>Designs</Link> */}
         {/* <Link to={'/products'}>Products</Link> */}
         <Link className={styles.navbtn} to={'/placeOrder'}>Custom Orders</Link>
-        <Link className={styles.navbtn} to={'/contactinfo'}>Contacts</Link>
+        {/* <Link className={styles.navbtn} to={'/contactinfo'}>Contacts</Link> */}
     </div>
   )
 }
