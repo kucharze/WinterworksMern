@@ -5,37 +5,8 @@ import text from '../../images/justforyou2.JPG'
 
 // const BASE_URL = 
 function Orders() {
-  const [name,setName] = useState('')
-  const [phoneNumber,setPhoneNumber] = useState('')
-  const [email,setEmail] = useState('')
-  const [item,setItem] = useState('')
-  const [design,setDesign] = useState('')
   const [annoucnement,setAnnouncement] = useState('')
   const [queue,setQueue] = useState("Loading...")
-
-    const handleSubmit = async (e) =>{
-        e.preventDefault();
-        let order = {name,phoneNumber,email,item,design}
-        console.log(order)
-
-        try {
-          let res = await axios.post('http://localhost:3001/orders',
-          order,{
-            headers:{
-              "Content-Type": "application/json"
-            }
-          })
-
-          console.log(res)
-          setAnnouncement("Successful Order Submision")
-          
-        } catch (error) {
-          console.log("There was an error")
-          console.log(error)
-          setAnnouncement('Error')
-        }
-
-    }
 
     const loadOrders = async () =>{
       try{
@@ -63,40 +34,24 @@ function Orders() {
         <h1 className={styles.title}>Order Info</h1>
         <ul>
           <li>Please allow at least one week for order completion after order confirmation.</li>
-          <li>Please use a valid email or phone number when submitting an order.  
+          <li>Please use a valid email or phone number along with your name
+            when submitting an order.  
             If we cannot contact you, we will not put your name in the order queue.
           </li>
 
         </ul>
       </div>
+      <p>You can order items such as: Shirt, Blanket, Hat, Handheld.</p>
+      <p>If you would like something different.  Please specify</p>
+
       <h2>Currently this many orders in the queue: {queue}</h2>
       <h2>{annoucnement}</h2>
-      <form onSubmit={handleSubmit}>
-        <input name='name' onChange={(e)=>{setName(e.target.value)}} placeholder='Name'/> 
-        <input name='phonenumber' onChange={(e)=>{setPhoneNumber(e.target.value)}} placeholder='Phone Number'/>
-        <input name='email' onChange={(e)=>{
-          setEmail(e.target.value)
-          }} placeholder='Email'/>
-          <br/>
-        <select name='item' onChange={(e)=>{
-          console.log(e.target.value);setItem(e.target.value)
-          }}>
-          <option value="Shirt">Shirt</option>
-          <option value="Blanket">Blanket</option>
-          <option value="Hat">Hat</option>
-          <option value="Handheld">Handheld</option>
-          <option value="Other">Other</option>
-        </select>
-        {/* <input name='item' onChange={(e)=>{setItem(e.target.value)}} placeholder='Item(Will be changed to dropdown)'/> */}
-        <input name='design' onChange={(e)=>{setDesign(e.target.value)}} 
-        placeholder='Describe what you want on your item'/><br/>
-        <input className={styles.submit} type='submit'/>
-      </form>
+     
       <a
         href="mailto:winterworks1@gmail.com"
         className="bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition"
       >
-        Get in Touch
+        Email Us Today
       </a>
       <img src={text} alt="" className={styles.text} />
     </div>
@@ -104,3 +59,35 @@ function Orders() {
 }
 
 export default Orders
+
+//Backup code to fall back on if needed:
+ 
+// const [name,setName] = useState('')
+  // const [phoneNumber,setPhoneNumber] = useState('')
+  // const [email,setEmail] = useState('')
+  // const [item,setItem] = useState('')
+  // const [design,setDesign] = useState('')
+
+    // const handleSubmit = async (e) =>{
+    //     e.preventDefault();
+    //     let order = {name,phoneNumber,email,item,design}
+    //     console.log(order)
+
+    //     try {
+    //       let res = await axios.post('http://localhost:3001/orders',
+    //       order,{
+    //         headers:{
+    //           "Content-Type": "application/json"
+    //         }
+    //       })
+
+    //       console.log(res)
+    //       setAnnouncement("Successful Order Submision")
+          
+    //     } catch (error) {
+    //       console.log("There was an error")
+    //       console.log(error)
+    //       setAnnouncement('Error')
+    //     }
+
+    // }
