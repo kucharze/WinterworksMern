@@ -13,10 +13,10 @@
 }
 
 .MainContent {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     rgba(70, 130, 180, 0.8),
-    rgba(42, 109, 25, 0.5)
-  );
+    rgba(8, 126, 65, 0.5)
+  ); */
   border-radius: 50px;
 
   display: flex;

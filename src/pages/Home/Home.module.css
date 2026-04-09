@@ -8,9 +8,14 @@ img {
   font-size: 20px;
   color: white;
   /* background-color: rgba(187, 40, 40, 0.5); */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     rgba(70, 130, 180, 0.8),
     rgba(178, 34, 34, 0.8)
+  ); */
+  /* background-color: green; */
+  background-image: linear-gradient(
+    rgba(70, 130, 180, 0.8),
+    rgba(42, 109, 25, 0.5)
   );
   width: 95%;
   margin: 20px;
