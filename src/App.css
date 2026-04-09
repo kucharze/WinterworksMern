@@ -17,6 +17,7 @@
     rgba(70, 130, 180, 0.8),
     rgba(8, 126, 65, 0.5)
   ); */
+  background-color: rgb(215, 218, 202);
   border-radius: 50px;
 
   display: flex;
@@ -41,9 +42,16 @@ h3 {
 
 .TopContact {
   display: flex;
+  flex-direction: column;
   background-color: black;
   width: 98%;
   position: fixed;
+}
+
+.contactDisplay {
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 @media (max-width: 1600px) {
   .TopContact {
